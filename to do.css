@@ -99,3 +99,41 @@ form{
     margin-top: 30px;
 }
   }
+@media  (max-width: 480px) {
+    #main{
+        width: 70%;
+        height: 40px;
+        
+        border-top-right-radius:0 ;
+        border-bottom-right-radius:0 ;
+        margin-left: auto;
+        
+    }
+    form{
+        margin: 10px;
+        width: auto;
+        height: auto;
+    }
+    
+    #btn{
+    border-top-left-radius:0 ;
+    border-bottom-left-radius:0 ;
+    position: absolute;
+    right: auto;
+    
+     height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+ 
+}
+#clear{
+  
+    margin-left: 170px;
+    
+}
+
+
+ 
+ 
+  }
+ 
